@@ -12,9 +12,11 @@ class Form {
     }
   
     display(){
-      var title = createElement('h2')
-      title.html("THE QUIZ.net");
-      title.position(350, 0);
+
+      var title, question, option1, option2, option3, option4;
+
+      this.title.html("THE QUIZ.net");
+      this.title.position(350, 0);
 
       this.question.html("Q: What was added in the Minecraft 1.16 Update?")
       this.question.position(150,80);
